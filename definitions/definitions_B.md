@@ -1,29 +1,32 @@
-# Definitions B
+# Définitions B (Definitions B)
 
-## Backdoor
-A backdoor is a typically covert method of bypassing normal authentication or encryption in a computer, product, embedded device (e.g. a home router), or its embodiment (e.g. part of a cryptosystem, algorithm, chipset, or even a "homunculus computer" —a tiny computer-within-a-computer such as that found in Intel's AMT technology).
+## Porte dérobée (Backdoor)
+Une porte dérobée est une méthode généralement secrète permettant de contourner l'authentification normale ou le chiffrement dans un ordinateur, un produit, un appareil intégré (comme un routeur domestique) ou sa représentation (par exemple, une partie d'un système cryptographique, d'un algorithme, d'un chipset ou même d'un "ordinateur homoncule", un mini-ordinateur intégré comme dans la technologie AMT d'Intel).
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Backdoor_(computing)](https://en.wikipedia.org/wiki/Backdoor_(computing))
 
-## Background Check
-A background check is a process a person or company uses to verify that an individual is who they claim to be, and this provides an opportunity to check and confirm the validity of someone's criminal record, education, employment history, and other activities from their past.
+## Vérification des antécédents (Background Check)
+Une vérification des antécédents est un processus utilisé par une personne ou une entreprise pour vérifier qu'un individu est bien celui qu'il prétend être. Cela permet de confirmer la validité des antécédents criminels, des diplômes, de l'historique professionnel et d'autres activités passées de l'individu.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Background_check](https://en.wikipedia.org/wiki/Background_check)
 
-## Bandwith
-In computing, bandwidth is the maximum rate of data transfer across a given path.
-Bandwidth may be characterized as network bandwidth, data bandwidth, or digital bandwidth.
+## Bande passante (Bandwidth)
+En informatique, la bande passante est le débit maximal de transfert de données sur un chemin donné.  
+Elle peut être caractérisée comme la bande passante réseau, la bande passante des données ou la bande passante numérique.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Bandwidth_(computing)](https://en.wikipedia.org/wiki/Bandwidth_(computing))
 
-## Bandwith Throttling
-Bandwidth throttling consists in the intentional limitation of the communication speed (bytes or kilobytes per second) of the ingoing (received) data and/or in the limitation of the speed of outgoing (sent) data in a network node or in a network device.
+## Limitation de bande passante (Bandwidth Throttling)
+La limitation de bande passante consiste à réduire intentionnellement la vitesse de communication (en octets ou kilooctets par seconde) des données entrantes (reçues) et/ou des données sortantes (envoyées) sur un nœud ou un dispositif réseau.
 
-## Banner Grabbing
-Banner grabbing is a technique used to gain information about a computer system on a network and the services running on its open ports. Administrators can use this to take inventory of the systems and services on their network. However, an intruder can use banner grabbing in order to find network hosts that are running versions of applications and operating systems with known exploits.
+## Récupération de bannières (Banner Grabbing)
+La récupération de bannières est une technique utilisée pour obtenir des informations sur un système informatique d'un réseau et sur les services fonctionnant sur ses ports ouverts.  
+Les administrateurs peuvent utiliser cette méthode pour inventorier les systèmes et services de leur réseau, mais les intrus peuvent s'en servir pour trouver des hôtes réseau exécutant des versions d'applications et de systèmes d'exploitation comportant des vulnérabilités connues.
+
+Un exemple de récupération de bannières est fourni ci-dessous :
 
 An example of banner grabbing is provided below
 ```shell
@@ -31,101 +34,101 @@ telnet ceh.a3cipher.com
 HEAD / HTTP/1.1
 ```
 
-Links
+Liens (Links)
 - [https://en.wikipedia.org/wiki/Banner_grabbing](https://en.wikipedia.org/wiki/Banner_grabbing)
 
 ## Base64
-In computer programming, Base64 is a group of binary-to-text encoding schemes that represent binary data (more specifically, a sequence of 8-bit bytes) in sequences of 24 bits that can be represented by four 6-bit Base64 digits.
+En programmation informatique, Base64 est un groupe de schémas d'encodage binaire-texte qui représentent des données binaires (plus spécifiquement, une séquence d'octets de 8 bits) en séquences de 24 bits qui peuvent être représentées par quatre chiffres Base64 de 6 bits.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Base64](https://en.wikipedia.org/wiki/Base64)
 
 ## BeEF
-BeEF is short for The Browser Exploitation Framework.
-It is a penetration testing tool that focuses on the web browser.
+BeEF est l'acronyme de The Browser Exploitation Framework.  
+C'est un outil de test de pénétration qui se concentre sur le navigateur web.
 
-Links
+Liens  
 - [https://beefproject.com](https://beefproject.com)
 
-## Birthday Attack
-A birthday attack is a type of cryptographic attack that exploits the mathematics behind the birthday problem in probability theory.
-This attack can be used to abuse communication between two or more parties.
-The attack depends on the higher likelihood of collisions found between random attack attempts and a fixed degree of permutations (pigeonholes).
+## Attaque par anniversaire (Birthday Attack)
+Une attaque par anniversaire est un type d'attaque cryptographique qui exploite les mathématiques derrière le problème d'anniversaire en théorie des probabilités.  
+Cette attaque peut être utilisée pour abuser de la communication entre deux ou plusieurs parties.  
+L'attaque repose sur la probabilité plus élevée des collisions trouvées entre les tentatives d'attaque aléatoires et un degré fixe de permutations (cages de pigeon).
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Birthday_attack](https://en.wikipedia.org/wiki/Birthday_attack)
 
-## Block Chain
-A blockchain is a type of distributed ledger technology (DLT) that consists of growing list of records, called blocks, that are securely linked together using cryptography.
+## Blockchain
+Une blockchain est un type de technologie de registre distribué (DLT) qui consiste en une liste croissante de records, appelés blocs, qui sont liés de manière sécurisée à l'aide de cryptographie.
 
-## Block Cipher Mode of Operation
-In cryptography, a block cipher mode of operation is an algorithm that uses a block cipher to provide information security such as confidentiality or authenticity.
+## Mode de fonctionnement des chiffrements par blocs (Block Cipher Mode of Operation)
+En cryptographie, un mode de fonctionnement de chiffrements par blocs est un algorithme qui utilise un chiffre par bloc pour fournir la sécurité des informations telles que la confidentialité ou l'authenticité.
 
-### Electronic code book mode
-The simplest (and not to be used anymore) of the encryption modes is the electronic codebook (ECB) mode (named after conventional physical codebooks).
-The message is divided into blocks, and each block is encrypted separately.
+### Mode de livre de codes électronique (Electronic code book mode)
+Le mode le plus simple (et à ne plus utiliser désormais) des modes de chiffrement est le mode livre de codes électronique (ECB), nommé d'après les livres de codes physiques conventionnels.  
+Le message est divisé en blocs, et chaque bloc est chiffré séparément.
 
-### Public blockchain
-A public blockchain has absolutely no access restrictions.
-Anyone with an Internet connection can send transactions to it as well as become a validator (i.e., participate in the execution of a consensus protocol).
-Usually, such networks offer economic incentives for those who secure them and utilize some type of a Proof of Stake or Proof of Work algorithm.
+### Blockchain publique (Public blockchain)
+Une blockchain publique n'a absolument aucune restriction d'accès.  
+Quiconque dispose d'une connexion Internet peut envoyer des transactions à celle-ci ainsi que devenir un validateur (c'est-à-dire participer à l'exécution d'un protocole de consensus).  
+Généralement, de tels réseaux offrent des incitations économiques à ceux qui les sécurisent et utilisent un type d'algorithme de Preuve d'Enjeu ou de Preuve de Travail.
 
-### Private blockchain
-A private blockchain is permissioned.
-One cannot join it unless invited by the network administrators.
-Participant and validator access is restricted.
-To distinguish between open blockchains and other peer-to-peer decentralized database applications that are not open ad-hoc compute clusters, the terminology Distributed Ledger (DLT) is normally used for private blockchains.
+### Blockchain privée (Private blockchain)
+Une blockchain privée est permise.  
+On ne peut y participer que sur invitation des administrateurs du réseau.  
+L'accès des participants et des validateurs est restreint.  
+Pour distinguer les blockchains ouvertes des autres applications de base de données décentralisées pair-à-pair qui ne sont pas des clusters de calcul ad hoc, la terminologie Registre Distribué (DLT) est normalement utilisée pour les blockchains privées.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Blockchain](https://en.wikipedia.org/wiki/Blockchain)
 
 ## BlueBorne
-BlueBorne is a type of security vulnerability with Bluetooth implementations in Android, iOS, Linux and Windows.
-It affects many electronic devices such as laptops, smart cars, smartphones and wearable gadgets.
+BlueBorne est un type de vulnérabilité de sécurité affectant les implémentations Bluetooth dans Android, iOS, Linux et Windows.  
+Elle affecte de nombreux appareils électroniques tels que les ordinateurs portables, les voitures intelligentes, les smartphones et les gadgets portables.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/BlueBorne_(security_vulnerability)](https://en.wikipedia.org/wiki/BlueBorne_(security_vulnerability))
 
-## Border Gateway Protocol
-Border Gateway Protocol (BGP) is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet.[1] BGP is classified as a path-vector routing protocol,[2] and it makes routing decisions based on paths, network policies, or rule-sets configured by a network administrator.
+## Protocole de passerelle de bord (Border Gateway Protocol)
+Le Border Gateway Protocol (BGP) est un protocole standardisé de passerelle extérieure conçu pour échanger des informations de routage et de connectivité entre des systèmes autonomes (AS) sur Internet.  
+BGP est classifié comme un protocole de routage par vecteur de chemin et prend des décisions de routage basées sur les chemins, les politiques de réseau, ou des ensembles de règles configurés par un administrateur réseau.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Border_Gateway_Protocol](https://en.wikipedia.org/wiki/Border_Gateway_Protocol)
 
 ## Botnet
-> A botnet is a group of Internet-connected devices, each of which runs one or more bots.
-> Botnets can be used to perform Distributed Denial-of-Service (DDoS) attacks, steal data, send spam, and allow the attacker to access the device and its connection.
+> Un botnet est un groupe de dispositifs connectés à Internet, chacun exécutant un ou plusieurs bots.  
+> Les botnets peuvent être utilisés pour réaliser des attaques par déni de service distribué (DDoS), voler des données, envoyer du spam, et permettre à l'attaquant d'accéder à l'appareil et à sa connexion.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Botnet](https://en.wikipedia.org/wiki/Botnet)
 
-## Bring Your Own Device
-Bring your own device (BYOD /ˌbiː waɪ oʊ ˈdiː/)—also called bring your own technology (BYOT), bring your own phone (BYOP), and bring your own personal computer (BYOPC)—refers to being allowed to use one's personally owned device, rather than being required to use an officially provided device.
+## Apportez votre propre appareil (Bring Your Own Device)
+Apporter son propre appareil (BYOD) (ou Bring Your Own Technology - BYOT, Bring Your Own Phone - BYOP, et Bring Your Own Personal Computer - BYOPC) fait référence à l'autorisation d'utiliser son appareil personnel, plutôt que d'être obligé d'utiliser un appareil fourni officiellement.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Bring_your_own_device](https://en.wikipedia.org/wiki/Bring_your_own_device)
 
-## Brute Force Attack
-In cryptography, a brute-force attack consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly.
+## Attaque par force brute (Brute Force Attack)
+En cryptographie, une attaque par force brute consiste à soumettre de nombreux mots de passe ou phrases de passe dans l'espoir de deviner correctement.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Brute-force_attack](https://en.wikipedia.org/wiki/Brute-force_attack)
 
-## Buffer Overflow
-In information security and programming, a buffer overflow, or buffer overrun, is an anomaly whereby a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations.
+## Dépassement de tampon (Buffer Overflow)
+En sécurité de l'information et en programmation, un dépassement de tampon, ou dépassement de mémoire tampon, est une anomalie où un programme, en écrivant des données dans un tampon, dépasse la limite de ce tampon et écrase les emplacements de mémoire adjacents.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Buffer_overflow](https://en.wikipedia.org/wiki/Buffer_overflow)
 
-## Bug Bounty Program
-A bug bounty program is a deal offered by many websites, organizations and software developers by which individuals can receive recognition and compensation[1][2] for reporting bugs, especially those pertaining to security exploits and vulnerabilities.
+## Programme de récompenses de bogues (Bug Bounty Program)
+Un programme de récompenses de bogues est une offre faite par de nombreux sites web, organisations et développeurs de logiciels, par laquelle les individus peuvent recevoir une reconnaissance et une compensation pour avoir signalé des bogues, en particulier ceux relatifs aux failles de sécurité et vulnérabilités.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Bug_bounty_program](https://en.wikipedia.org/wiki/Bug_bounty_program)
 
-## Burp Suite
-Burp Suite is an integrated platform/graphical tool for performing security testing of web applications.
+## Suite Burp (Burp Suite)
+Burp Suite est une plateforme intégrée/un outil graphique pour effectuer des tests de sécurité des applications web.
 
-Link
+Liens  
 - [https://portswigger.net/burp](https://portswigger.net/burp)
-
