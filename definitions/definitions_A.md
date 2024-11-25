@@ -1,105 +1,97 @@
-# Definitions A
+# Définitions A (Definitions A)
 
-## Acceptable Use Policy
-An acceptable use policy (AUP), acceptable usage policy or fair use policy is a set of rules applied by the owner, creator or administrator of a computer network website, or service.
-That restricts the ways in which the network, website or system may be used and sets guidelines as to how it should be used.
-AUP documents are written for corporations, businesses, universities, schools, internet service providers (ISPs),[4] and website owners,[5] often to reduce the potential for legal action that may be taken by a user, and often with little prospect of enforcement.
+## Protocole de résolution d'adresse (Address Resolution Protocol)
+Le protocole de résolution d'adresse (ARP) est un protocole de communication utilisé pour découvrir l'adresse de la couche liaison, comme une adresse MAC, associée à une adresse de la couche Internet, généralement une adresse IPv4.  
+Ce mappage est une fonction essentielle de la suite de protocoles Internet.  
+ARP a été défini en 1982 par le RFC 826, qui est la norme Internet STD 37.
 
-Links
-- [https://en.wikipedia.org/wiki/Acceptable_use_policy](https://en.wikipedia.org/wiki/Acceptable_use_policy)
- 
-## Address Resolution Protocol
-The Address Resolution Protocol (ARP) is a communication protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address.
-This mapping is a critical function in the Internet protocol suite.
-ARP was defined in 1982 by RFC 826, which is Internet Standard STD 37.
-
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Address_Resolution_Protocol](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
 
-## Address Resolution Protocol Spoofing
-In computer networking, ARP spoofing, ARP cache poisoning, or ARP poison routing, is a technique by which an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network.
+## Usurpation de protocole de résolution d'adresse (Address Resolution Protocol Spoofing)
+Dans les réseaux informatiques, l'usurpation ARP, l'empoisonnement du cache ARP ou l'acheminement empoisonné ARP est une technique par laquelle un attaquant envoie des messages ARP usurpés sur un réseau local.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/ARP_spoofing](https://en.wikipedia.org/wiki/ARP_spoofing)
 
-## Advanced Encryption Standard
-The Advanced Encryption Standard (AES), also known by its original name Rijndael (Dutch pronunciation: [ˈrɛindaːl]),[5] is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001.
+## Norme de chiffrement avancée (Advanced Encryption Standard)
+La norme de chiffrement avancée (AES), également connue sous son nom original Rijndael (prononciation néerlandaise : [ˈrɛindaːl]), est une spécification pour le chiffrement des données électroniques établie par le National Institute of Standards and Technology (NIST) des États-Unis en 2001.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Advanced_Encryption_Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 
-## Advanced Persistent Threat
-An advanced persistent threat (APT) is a stealthy threat actor, typically a nation state or state-sponsored group, which gains unauthorized access to a computer network and remains undetected for an extended period.
-In recent times, the term may also refer to non-state-sponsored groups conducting large-scale targeted intrusions for specific goals.
+## Menace persistante avancée (Advanced Persistent Threat)
+Une menace persistante avancée (APT) est un acteur menaçant furtif, généralement un État-nation ou un groupe parrainé par l'État, qui accède de manière non autorisée à un réseau informatique et reste indétecté pendant une période prolongée.  
+Ces dernières années, le terme peut également désigner des groupes non parrainés par un État menant des intrusions ciblées à grande échelle pour des objectifs spécifiques.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Advanced_persistent_threat](https://en.wikipedia.org/wiki/Advanced_persistent_threat)
 
-## Adware
-Adware, often called advertising-supported software by its developers, is software that generates revenue for its developer by automatically generating online advertisements in the user interface of the software or on a screen presented to the user during the installation process.
+## Logiciel publicitaire (Adware)
+Un logiciel publicitaire (souvent appelé adware) est un logiciel qui génère des revenus pour son développeur en affichant automatiquement des publicités en ligne dans l'interface utilisateur du logiciel ou sur un écran présenté à l'utilisateur lors du processus d'installation.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Adware](https://en.wikipedia.org/wiki/Adware)
 
-## Amazon Web Services
-Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
+## Services Web d'Amazon (Amazon Web Services)
+Les services web d'Amazon (AWS) sont une filiale d'Amazon qui fournit des plateformes de cloud computing et des API à la demande pour les particuliers, les entreprises et les gouvernements, sur la base d'une facturation à l'utilisation.
 
-Links
+Liens  
 - [https://aws.amazon.com](https://aws.amazon.com)
 
-## Android Package Kit
-The Android Package with the file extension apk is the file format used by the Android operating system, and a number of other Android-based operating systems for distribution and installation of mobile apps, mobile games and middleware.
-It can be written in either Java or Kotlin.
+## Kit de paquets Android (Android Package Kit)
+Le kit de paquets Android, avec l'extension de fichier `.apk`, est le format utilisé par le système d'exploitation Android (et d'autres systèmes Android) pour la distribution et l'installation d'applications mobiles, de jeux et de middlewares.  
+Il peut être écrit en Java ou en Kotlin.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Apk_(file_format)](https://en.wikipedia.org/wiki/Apk_(file_format))
- 
-## Android Rooting
-Rooting is the process of allowing users of the Android mobile operating system to attain privileged control (known as root access) over various Android subsystems.
 
-Links
+## Rooting Android (Android Rooting)
+Le rooting est le processus qui permet aux utilisateurs du système d'exploitation Android d'obtenir un contrôle privilégié (appelé accès root) sur divers sous-systèmes Android.
+
+Liens  
 - [https://en.wikipedia.org/wiki/Rooting_(Android)](https://en.wikipedia.org/wiki/Rooting_(Android))
 
-## Anonymous Surfing
-Anonymous surfing allows you to wander the Internet without leaving any track of your computer's IP (Internet Protocol) address.
-This is accomplished via a proxy service.
+## Navigation anonyme (Anonymous Surfing)
+La navigation anonyme permet de parcourir Internet sans laisser de traces de l'adresse IP (Internet Protocol) de votre ordinateur.  
+Cela est rendu possible grâce à un service proxy.
 
-## Antivirus
-Antivirus software (abbreviated to AV software), also known as anti-malware, is a computer program used to prevent, detect, and remove malware.
+## Antivirus (Antivirus)
+Un logiciel antivirus (abrégé en AV) ou anti-malware est un programme informatique utilisé pour prévenir, détecter et supprimer les logiciels malveillants.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Antivirus_software](https://en.wikipedia.org/wiki/Antivirus_software)
 
-## Application Blacklisting
-In computing, a blacklist, disallowlist, blocklist, or denylist is a basic access control mechanism that allows through all elements (email addresses, users, passwords, URLs, IP addresses, domain names, file hashes, etc.), except those explicitly mentioned.
+## Liste noire d'applications (Application Blacklisting)
+Dans l'informatique, une liste noire (ou blocklist, denylist) est un mécanisme de contrôle d'accès basique qui autorise tous les éléments (adresses e-mail, utilisateurs, mots de passe, URLs, adresses IP, noms de domaine, empreintes de fichiers, etc.), sauf ceux explicitement mentionnés.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Blacklist_(computing)](https://en.wikipedia.org/wiki/Blacklist_(computing))
 
-## Application Programming Interface
-An application programming interface (API) is a way for two or more computer programs to communicate with each other.
-It is a type of software interface, offering a service to other pieces of software.
-A document or standard that describes how to build or use such a connection or interface is called an API specification.
+## Interface de programmation d'applications (Application Programming Interface)
+Une interface de programmation d'applications (API) est un moyen pour deux ou plusieurs programmes informatiques de communiquer entre eux.  
+Il s'agit d'un type d'interface logicielle, offrant un service à d'autres logiciels.  
+Un document ou une norme qui décrit comment construire ou utiliser une telle connexion ou interface est appelé spécification API.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/API](https://en.wikipedia.org/wiki/API)
 
-## Archive Org
-The Internet Archive is an American digital library with the stated mission of "universal access to all knowledge".
+## Archive.org (Archive Org)
+L'Internet Archive est une bibliothèque numérique américaine ayant pour mission déclarée d'offrir "un accès universel à toutes les connaissances".
 
-Links
-- [https://archive.org](https://archive.org)
+Liens  
+- [https://archive.org](https://archive.org)  
 - [https://en.wikipedia.org/wiki/Internet_Archive](https://en.wikipedia.org/wiki/Internet_Archive)
 
-## Artificial Intelligence
-Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals and humans.
-AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.
+## Intelligence artificielle (Artificial Intelligence)
+L'intelligence artificielle (IA) désigne l'intelligence démontrée par des machines, par opposition à l'intelligence naturelle observée chez les animaux et les humains.  
+La recherche en IA est définie comme le domaine d'étude des agents intelligents, qui fait référence à tout système qui perçoit son environnement et prend des actions maximisant ses chances d'atteindre ses objectifs.
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/Artificial_intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
 
-## Auth0
-Rapidly integrate authentication and authorization for web, mobile, and legacy applications so you can focus on your core business.
+## Auth0 (Auth0)
+Intégrez rapidement l'authentification et l'autorisation pour les applications web, mobiles et anciennes afin que vous puissiez vous concentrer sur votre activité principale.
 
-Links
+Liens  
 - [https://auth0.com](https://auth0.com)

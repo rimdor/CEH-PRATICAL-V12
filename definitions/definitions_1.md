@@ -1,9 +1,9 @@
-# Definitions 1
+# Définitions 1 (Definitions 1)
 
-## 801.1x
-EEE 802.1X is an IEEE Standard for port-based Network Access Control (PNAC).
-It is part of the IEEE 802.1 group of networking protocols.
-It provides an authentication mechanism to devices wishing to attach to a LAN or WLAN.
+## 802.1X (Eight-oh-two-dot-one-x)
+IEEE 802.1X est une norme IEEE pour le contrôle d'accès au réseau basé sur les ports (PNAC).  
+Elle fait partie du groupe de protocoles réseau IEEE 802.1.  
+Cette norme fournit un mécanisme d'authentification pour les appareils souhaitant se connecter à un réseau local (LAN) ou sans fil (WLAN).
 
-Links
+Liens  
 - [https://en.wikipedia.org/wiki/IEEE_802.1X](https://en.wikipedia.org/wiki/IEEE_802.1X)
